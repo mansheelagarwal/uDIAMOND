@@ -6,8 +6,10 @@ affects policy learning, visual fidelity, and computational efficiency in
 imagined rollouts.
 
 ## What I did
+
 1. Improved policy performance by approximately 14% (mean return 1.4 vs. 1.2) by removing noise conditioning and training a noise-unconditioned world model on the Atari-100K benchmark.
 2. Stabilized denoiser training, with the loss converging below 0.001, by eliminating timestep/noise embeddings and filtering unstable training runs.
+3. 
 ---
 
 ## What This Notebook Does
